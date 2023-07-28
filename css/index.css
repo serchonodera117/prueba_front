@@ -1,0 +1,23 @@
+:root{
+    --bg-body: rgb(233, 221, 221);
+}
+
+*{
+    margin: 0 0 0 0;
+}
+body{
+    background-color: var(--bg-body);
+}
+
+/*------------------------------------Header*/
+.head-row1{
+    padding: 5px;
+}
+.head-row1 ul{
+    list-style: none;
+    display: flex;
+    margin-left: 10vw;
+}.head-row1 ul li{
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
